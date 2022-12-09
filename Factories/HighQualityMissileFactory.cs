@@ -2,15 +2,15 @@ using Abstract_factory_Diego_Hiriart.Classes;
 
 namespace Abstract_factory_Diego_Hiriart.Factories
 {
-    public class QualityMissileFactory
+    public class HighQualityMissileFactory
     {
         public Rocket CreateRocket()
         {
-            return new QualityRocket();
+            return new HighQualityRocket();
         }
         public Heatseeker CreateHeatseeker()
         {
-            return new QualityHeatseeker();
+            return new HighQualityHeatseeker();
         }
     }
 }

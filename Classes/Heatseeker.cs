@@ -3,6 +3,7 @@ namespace Abstract_factory_Diego_Hiriart.Classes
     public class Heatseeker : Missile
     {
         public virtual float TrackingPrecision { set; get; }//Degrees
+        //Override Fire method
         public override void Fire()
         {
             Console.WriteLine("Firing heatseeker");
@@ -11,6 +12,7 @@ namespace Abstract_factory_Diego_Hiriart.Classes
             this.SpendFuel();
             this.SeekHeat();
         }
+        //Implement new SeekHeat method, use virtual so it can be overridden
         protected virtual void SeekHeat() { }
     }
 }
