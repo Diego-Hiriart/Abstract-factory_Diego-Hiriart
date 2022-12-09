@@ -5,6 +5,7 @@ namespace Abstract_factory_Diego_Hiriart.Classes
         //Implement high quality rocket constructor
         public HighQualityRocket()
         {
+            this.HighQuality = true;
             this.Damage = 245;
             this.BlastRadius = 11;
             this.Fuel = 100;
