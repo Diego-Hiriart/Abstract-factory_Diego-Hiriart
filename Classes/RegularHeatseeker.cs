@@ -5,7 +5,6 @@ namespace Abstract_factory_Diego_Hiriart.Classes
         //Implement regular quality heatseeker constructor
         public RegularHeatseeker()
         {
-            this.HighQuality = false;
             this.Damage = 186;
             this.BlastRadius = 4.6f;
             this.Fuel = 77;
