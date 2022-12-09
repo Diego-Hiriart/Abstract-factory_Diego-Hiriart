@@ -32,6 +32,7 @@ namespace Abstract_factory_Diego_Hiriart.Classes
             if (this.ChamberedMissile != null)
             {
                 this.ChamberedMissile.Fire();
+                this.ChamberedMissile = null;
             }
             else
             {
